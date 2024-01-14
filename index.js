@@ -1,12 +1,11 @@
 const fetch = require("node-fetch");
 const { Telegraf } = require("telegraf");
 const serverConfig = {
-  url: "https://178.208.90.56",
+  url: "https://korotkovs.com",
   timeout: 5000,
 };
 
 const chatId = "-1002078171202";
-const message_thread_id = 3;
 
 const bot = new Telegraf("6848774632:AAE0ldngGKgTjdriuEdqcCpTlxDhNCO03iM", {
   handlerTimeout: 9_000_000,
